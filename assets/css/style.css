@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* apply background-color to <body> */
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px; /* apply padding to header*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* add font family  */
+    background-color: #2a607c; /* add backgrounf color to header */
+    color: #ffffff; /* set header text color */
+}
+
+.header h1 {
+    display: inline-block; /* set a width and height */
+    font-size: 48px; /* apply font size */
+}
+/* apply color to .seo class */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header div {
+    padding-top: 15px; /* apply padding */
+    margin-right: 20px; /* set margin */
+    float: right; /* set float right side */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* add font family */
+    font-size: 20px; /* apply font size */
+}
+/* specify type of list-item marker*/
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block; /* set a width and height */
+    margin-left: 25px; /* set margin */
+}
+
+a {
+    color: #ffffff; /* apply color */
+    text-decoration: none; /* no decoration added to text */
+}
+/* set fonti-size to <p> */
+p {
+    font-size: 16px;
+}
+/* apply background-color to <body> */
+.hero {
+    height: 800px; /* set height */
+    width: 100%;  /* set width */
+    margin-bottom: 25px; /* set margin */
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* apply background image */
+    background-size: cover; /* set size*/
+    background-position: center; /* set postion to center*/
+}
+/* apply background-color to <body> */
+.float-left, .float-right  {
+    float: left;
+    margin-right: 25px;
+}
+/* apply background-color to <body> */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* apply background-color to <body> */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* apply background-color to <body> */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* apply background-color to <body> */
+.benefit-brand h3, .benefit-cost h3,.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* apply background-color to <body> */
+.benefit-lead img, .benefit-brand img,.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* apply background-color to <body> */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* set max-height to <img> */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2, .online-reputation-management h2,.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* set font-size to <footer> */
+.footer h2 {
+    font-size: 20px;
+}
