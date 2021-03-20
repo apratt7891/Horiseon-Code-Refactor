@@ -1,10 +1,10 @@
-/* style for all the elements of HTML page */
+/* Universal selector style */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* apply background-color to <body> */
+/* Body style */
 body {
     background-color: #d9dcd6;
 }
@@ -41,12 +41,12 @@ body {
     display: inline-block; 
     margin-left: 25px; 
 }
-/* all style to a tag*/
+/* <a> Element style*/
 a {
     color: #ffffff; 
     text-decoration: none; 
 }
-/* set font-size to <p> */
+/* <p> Element style */
 p {
     font-size: 16px;
 }
@@ -55,16 +55,16 @@ p {
     height: 800px; 
     width: 100%;  
     margin-bottom: 25px; 
-    background-image: url("../images/digital-marketing-meeting.jpg"); /* apply background image */
+    background-image: url("../images/digital-marketing-meeting.jpg"); 
     background-size: cover; 
     background-position: center; 
 }
-/* apply float properties */
+/* Utility class styles*/
 .float-left, .float-right  {
     float: left;
     margin-right: 25px;
 }
-/* apply styles to div class content */
+/* content style */
 .content {
     width: 75%;
     display: inline-block;
